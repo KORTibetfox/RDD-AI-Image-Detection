@@ -1,0 +1,14 @@
+# Install torch/torchvision together for your platform and CUDA version first.
+torch>=2.2,<3
+torchvision>=0.17,<1
+diffusers>=0.30,<1
+transformers>=4.40,<5
+accelerate>=0.30,<2
+lpips==0.1.4
+Pillow>=10,<13
+safetensors>=0.4,<1
+# Original exploratory notebook also uses:
+requests>=2.31,<3
+numpy>=1.26,<3
+tqdm>=4.66,<5
+
