@@ -2,7 +2,7 @@
 
 **추가 학습 없이 사전학습 확산 모델의 복원 오차로 AI 생성 이미지를 탐지**
 
-`LG_Detection` 실험을 정리했습니다. LG AI Research의 RDD 논문을 참고한 독립 실험 구현이며, 공식 구현이나 논문 전체 재현 결과는 아닙니다.
+'LG AI Research'의 RDD 논문을 참고한 독립 실험 구현이며, 공식 구현이나 논문 전체 재현 결과는 아닙니다.
 
 > 수식만으로 동작하는 모델은 아닙니다. Stable Diffusion v1.4의 VAE·UNet·텍스트 인코더와 LPIPS(VGG)를 사용하고, 탐지용 분류기를 추가로 학습하지 않는 **training-free** 방식입니다.
 
